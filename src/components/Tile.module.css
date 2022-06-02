@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+}
+
+.main button {
+  width: 60px;
+  height: 60px;
+  margin: 1px;
+  border-color: rgb(127, 255, 191);
+  background-color: white;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.main button:disabled {
+  border-color: rgb(247, 223, 223);
+  background-color: white;
+  box-shadow: none;
+}
